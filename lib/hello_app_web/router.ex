@@ -17,7 +17,7 @@ defmodule HelloAppWeb.Router do
   scope "/", HelloAppWeb do
     pipe_through :browser
 
-    get "/", PageController, :goodbye
+    get "/", PageController, :hello
   end
 
   # Other scopes may use custom stacks.
